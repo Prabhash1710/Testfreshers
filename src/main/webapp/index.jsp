@@ -119,7 +119,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 My Sample Page. All Rights Reserved thik .</p>
+        <p>&copy; 2024 My Sample Page. All Rights Reserved thik hai na.</p>
     </footer>
 
 </body>
