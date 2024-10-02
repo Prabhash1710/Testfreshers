@@ -7,6 +7,6 @@
   tasks:
     - name: copy war file
       copy:
-        src: /home/root/testfreshers.war
-        dest: /home/root/apache-tomcat-9.0.95/webapps
+        src: 
+        dest: 
 
