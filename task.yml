@@ -8,6 +8,6 @@
     - name: copy war file
       copy:
         src: /home/ansible/testfreshers.war 
-        dest: /root/apache-tomcat-9.0.95/webapps/
+        dest: /root/apache-tomcat-9.0.95/webapps/testfreshers.war 
 
 
