@@ -1,14 +1,4 @@
----
-- name: devops
-  hosts: demo
-  user: ansible
-  become: yes
-  connection: ssh
-  tasks:
-    - name: copy war file
-      copy:
-        src: /home/ansible/testfreshers.war 
-        dest: /root/apache-tomcat-9.0.95/webapps/
+
         
 
 
