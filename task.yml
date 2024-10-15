@@ -8,7 +8,11 @@
      - name: copy war
        copy: 
          src: /home/ansible/testfreshers.war
-         dest: /root/apache-tomcat-9.0.95/webapps
+         dest: ./
+     - name: copy dockerfile
+       copy: 
+         src: /var/lib/jenkins/Dockerfile.yml
+         dest: ./
 
         
 
