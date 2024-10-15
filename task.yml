@@ -11,7 +11,7 @@
          dest: ./
      - name: copy dockerfile
        copy: 
-         src: /var/lib/jenkins/Dockerfile.yml
+         src: /var/lib/jenkins/Dockerfile
          dest: ./
 
         
